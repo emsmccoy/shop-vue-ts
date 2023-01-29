@@ -1,13 +1,16 @@
 <template>
-    <div>
-<h2>Profile</h2>
-    </div>
+    <product-list/>
 </template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
-</style>
+  
+  <script lang="ts">
+  import ProductList from "../components/ProductList.vue";
+  export default {
+      components: {
+          ProductList
+      }
+  }
+  </script>
+  
+  <style>
+  
+  </style>

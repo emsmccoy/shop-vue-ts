@@ -10,10 +10,10 @@
 </template>
 
 <script lang="ts">
-import ProductCard from "./ProductCard.vue";
+import ProductDetail from "./ProductDetail.vue";
 export default {
   components: {
-    ProductCard
+    ProductDetail
   }
 }
 </script>
